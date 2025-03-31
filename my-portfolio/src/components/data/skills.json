@@ -20,15 +20,15 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "C++",
+    "imageSrc": "skills/c++.png"
+  },
+  {
+    "title": "mySQL",
+    "imageSrc": "skills/mysql.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
   }
 ]
