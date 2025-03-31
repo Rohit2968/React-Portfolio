@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "role": "Front-End Developer",
+    "organisation": "Oasis Infobyte",
+    "startDate": "Sept, 2023",
+    "endDate": "Nov, 2023",
+    "imageSrc": "company/oasis.jpg",
+    "experiences": ["Developed interactive UI using React.js"]
+  }
+]
