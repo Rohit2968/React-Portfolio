@@ -1,5 +1,6 @@
 import React from "react";
 import project from "./data/projects.json";
+import "./Projects.css";
 
 const Projects = () => {
   return (
@@ -29,8 +30,9 @@ const Projects = () => {
                       className="card-img-top"
                       alt="..."
                       style={{
-                        width: "250px",
+                        width: "100%",
                         height: "200px",
+                        objectFit: "cover",
                         border: "2px solid yellow",
                         borderRadius: "10px",
                       }}
@@ -39,8 +41,8 @@ const Projects = () => {
                   <div className="card-body text-center">
                     <h5 className="card-title">{data.title}</h5>
                     <p className="card-text">{data.description}</p>
-                    <a href={data.demo} className="btn btn-primary mx-3">
-                      Demo
+                    <a href={data.link} className="btn btn-primary mx-3">
+                      Live Link
                     </a>
                     <a href={data.source} className="btn btn-warning">
                       Code
