@@ -10,7 +10,7 @@ const Home = () => {
       strings: [
         "Welcome to my profile",
         "My Name is Rohit Kumar",
-        "I'm a MERN stack developer",
+        "I'm a Mern Stack Developer",
         "Proficient in C++",
       ],
       typeSpeed: 50,
@@ -29,7 +29,7 @@ const Home = () => {
     <div className="container home" id="home">
       <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
         <h1 ref={typedRef}></h1>
-        <a href="/pdf/Rohit_Resume.pdf" download="Rohit_Resume.pdf" className="btn btn-outline-warning my-3">
+        <a href="/pdf/Rohit_Kumar_Resume.pdf" download="Rohit Kumar_Resume.pdf" className="btn btn-outline-warning my-3">
           Download Resume
         </a>
       </div>
